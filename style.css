@@ -1,0 +1,24 @@
+body { font-family: 'Segoe UI', sans-serif; background: #f9f9f9; padding: 40px 20px; }
+.container { max-width: 600px; margin: auto; background: #fff; padding: 40px; border-top: 5px solid #000; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+
+header { text-align: center; margin-bottom: 30px; }
+.profile-pic {
+    width: 150px;       /* Ukuran sedikit lebih besar terlihat lebih profesional */
+    height: 150px;
+    background-image: url('FB_IMG_1574592263460.jpg');
+    background-size: cover;          /* Memastikan gambar menutupi seluruh area bulat */
+    background-position: center;     /* Fokus ke tengah gambar (wajah) */
+    background-repeat: no-repeat;
+    border-radius: 50%;              /* 50% membuat lingkaran sempurna */
+    margin: 0 auto 20px;
+    border: 3px solid #fff;          /* Memberikan sedikit bingkai putih agar terlihat kontras */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Memberikan efek kedalaman */
+}
+h1 { margin-bottom: 10px; color: #000; }
+h2 { border-bottom: 2px solid #000; display: inline-block; margin-bottom: 15px; }
+
+section { margin-bottom: 30px; line-height: 1.6; }
+ul { list-style: square; margin-left: 20px; }
+
+footer { text-align: center; margin-top: 20px; border-top: 1px solid #eee; padding-top: 20px; }
+footer a { color: #000; text-decoration: none; font-weight: bold; }
